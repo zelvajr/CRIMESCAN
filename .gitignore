@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.lnk
+
+# Case data and runtime outputs
+/case_data/
+/evidence/
+/exports/
+/mobile_share/
+/reconstruction_cache/
+/temp_frames/
+/reconstruction_3d/
+/viewer_data/
+/viewer/evidence.json
+/viewer/pointcloud.json
+*.db
+*.sqlite
+*.sqlite3
+*.bin
+*.ply
+*.log
+
+# Model weights are not redistributed
+*.pt
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
